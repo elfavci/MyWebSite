@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--***********CSS*************-->
+    <link rel="stylesheet" href="style.css">
+    <!--***********Js*************-->
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/1f7c7f1f1e.js" crossorigin="anonymous"></script>
+    <title>Portfolio Website</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Computer Engineer</p>
+                <h1>Hi, I'm Elif Avcı.<br>
+                Welcome to My Web Site  :))</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/vesikalik.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br><br><br>
+                    <p>Hello ! I am Elif Avcı. I am studying computer science at Çanakkale Onsekiz Mart University. I like to solve problems and do research.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experince</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Digital Skills</span><br><br>
+                                MS office, Windows,Linux,IOS,ZOOM,Skype,Microsoft teams, Google Meet, VS code,eclipse,anaconda,Postresql,sqlite,codeBlocks,pycharm community edition
+                            </li><br>
+                            <li><span>Programming Languages</span><br><br>
+                                Python<br>
+                                Java<br>
+                                C#<br>
+                                JavaScript<br>
+                                C <br>
+                                SQL for Database<br>
+                            </li><br>
+                            <li><span>Markup Languages</span><br>
+                                HTML <br>
+                                CSS <br>
+                            </li><br>
+                            <li><span>Languages</span><br>
+                                English<br>
+                                German<br>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2020 – 2022 Çanakkale, Türkiye Team Member at Google Developer Groups (GDG), Çanakkale</span><br>
+                            Google Developer Groups is a software development community made up of
+                            volunteers and supported by Google. These communities, which have branches and volunteer members all over the world, organise DevFest conferences and events in their cities. My roles in the team included organising and planning meetings and events such as a series of workshops in the field of software at DevFest Çanakkale festival on November 28, 2021.
+                            </li><br>
+                            <li><span>29/08/2022 – 26/09/2022 Ankara   Türkiye Trainee Computer Engineer at Forte Information and Communication Technologies and Defense Industry Ltd. Co.</span><br>
+                            During my traineeship, I developed a game project from scratch using the markup
+                            languages such as HTML and CSS as well as programming languages such as
+                            JavaScript; used Visual Studio Code in a comprehensive way; and learned the
+                            "Clean Code Principles" and practised writing codes in line with these principles.
+                            </li><br>
+                            <li><span>03/07/2023 – 04/08/2023 Ankara, Türkiye Trainee Java Full Stack Developer at Monad Software and Consulting</span><br>
+                            During my traineeship, I developed a "Hospital Automation System" project with
+                            Java, Java Spring Framework and Vaadin. Using the MVC design pattern, we
+                            decomposed the project into a modular structure and separated the data
+                            processing, user interface and interaction parts. This traineeship improved my
+                            technical skills and understanding of how real-world applications are built.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li>
+                                <span>Çanakkale Onsekiz Mart
+                                University</span><br>
+                                Computer Engineering <br>2020-2024   
+                            </li><br>
+                            <li>
+                                <span>Artificial Intelligence Expert
+                                Training Programme South
+                                Marmara Development Agency</span><br>
+                                Successfully completed the
+                                programme by developing four
+                                projects after the Data Analysis
+                                with Python, Data Modeling and
+                                Data Visualisation with Power
+                                BI, Natural Language Processing
+                                with Python, and Image
+                                Processing with Python training. <br>
+                                20/12/2022 – 20/07/2023
+                            </li><br>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact ME!</h1><br>
+                    <p><i class="fa-regular fa-paper-plane" style="color: #FFD43B;"></i>  elffavci@gmail.com</p><br>
+                    <p><i class="fa-solid fa-phone" style="color: #f58ace;"></i>  +905453356021</p><br>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/elif-avc%C4%B122/"><i class="fa-brands fa-linkedin" style="color: #74C0FC;"></i></a>
+                        <a href="https://github.com/elfavci"><i class="fa-brands fa-github" style="color: #B197FC;"></i></a>
+                        <a href="https://www.instagram.com/elifavci__/?next=%2F"><i class="fa-brands fa-instagram" style="color: #80e28d;"></i></a>
+                        <a href="https://www.hackerrank.com/profile/elffavci"><i class="fa-brands fa-hackerrank" style="color: #ff4d4d;"></i></a>
+                    </div><br>
+                    <!-- hata -->
+                    <a href="img/CV_AvciElif.pdf" class="btn btn2" download >Download CV Turkish</a>
+                    <a href="img/CV_engAvciElif.pdf"  class="btn btn2" download>Download CV English</a><br>
+                </div><br>
+                <div class="contact-right">
+                    <!-- <form method="post" id="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required> 
+                        <textarea name="Message" id=""rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form> -->
+                        <!-- <form method="post" action="https://script.google.com/macros/s/AKfycbwj8JgIUDqbtUuKLCYsdHFBZLaagCBPM5JDGJvE-p1MZdd32kzrCGnYVsbxSTvh6wxB/exec"> -->
+                    <form method="post" action="javascript:void(0)" id="myForm">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required> 
+                        <textarea name="Message" id=""rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Page Break. Thanks for your visit.<i class="fa-solid fa-heart" style="color: #ff3333;"></i></p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+    </script>
+      <script>
+        const form = document.getElementById("myForm");
+        const msg = document.getElementById("msg");
+
+        form.addEventListener("submit", function(event) {
+        event.preventDefault(); // Formun normal gönderimini engelle
+        fetch("https://script.google.com/macros/s/AKfycbwj8JgIUDqbtUuKLCYsdHFBZLaagCBPM5JDGJvE-p1MZdd32kzrCGnYVsbxSTvh6wxB/exec", {
+        method: "POST",
+        body: new FormData(form)
+        })
+        .then(response => {
+            if (response.ok) {
+                msg.innerHTML = "Your message has been sent. Thanks."; // Gönderme başarılıysa mesajı göster
+                form.reset(); // Formu sıfırla
+            } else {
+                throw new Error("Failed to send message.");
+            }
+        })
+        .catch(error => {
+            console.error("Error:", error);
+            msg.innerHTML = "An error occurred. Please try again."; // Hata durumunda hata mesajını göster
+        });
+    });
+
+    </script>
+</body>
+</html>
